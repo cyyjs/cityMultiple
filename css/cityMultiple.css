@@ -1,0 +1,107 @@
+#cyy-cityMultiple {
+    font-size: 12px;
+    height: 200px;
+    width: 550px;
+    border: 1px solid #368ee0;
+}
+#cyy-cityMultiple label {
+    vertical-align: text-bottom;
+}
+#cyy-cityMultiple .cyy-title {
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #368ee0;
+    border-bottom: 1px solid #368ee0;
+}
+#cyy-cityMultiple #cyy-cities {
+    float: left;
+    width: 348px;
+    height: 100%;
+    border-right: 1px solid #368ee0;
+}
+#cyy-cityMultiple #cyy-cities-list {
+    height: 171px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#cyy-cityMultiple ul {
+    margin: 0px;
+    padding: 0px;
+}
+#cyy-cityMultiple li {
+    list-style: none;
+    float: left;
+    width: 75px;
+    padding: 4px 4px;
+    white-space: nowrap;
+    border-bottom: 1px dashed #368ee0;
+    cursor: default;
+}
+#cyy-cityMultiple li:hover {
+    background-color: #cbe2f7
+}
+#cyy-cityMultiple .cyy-items {
+    border: 2px solid #368ee0;
+    position: absolute;
+    background-color: #fff;
+    height: 195px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 37px;
+    margin-left: 50px;
+    display: none;
+}
+#cyy-cityMultiple .cyy-items li {
+    float: none;
+    border: none;
+    white-space: nowrap;
+    margin-bottom: -1px;
+}
+#cyy-cityMultiple #cyy-selected {
+    width: 201px;
+    float: left;
+}
+#cyy-cityMultiple #cyy-selected .cyy-title {
+    border-left: 1px solid #fff;
+}
+#cyy-cityMultiple #cyy-allDelete {
+    color: #fff;
+}
+#cyy-cityMultiple .cyy-city-delete {
+    float: right;
+    text-decoration: none;
+    outline: none;
+}
+#cyy-cityMultiple #cyy-selected-list {
+    width: 100%;
+    height: 171px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#cyy-cityMultiple #cyy-selected-list>ul>li {
+    float: none;
+    white-space: nowrap;
+    width: 175px;
+}
+#cyy-selected-list>ul .city-s {
+    font-weight: bold;
+    line-height: 20px;
+}
+#cyy-selected-list .cyy-flod .city-switch{
+    margin-right: 10px;
+    text-decoration: none;
+    outline: none;
+}
+#cyy-selected-list .cyy-select>li {
+    float: none;
+    white-space: nowrap;
+    width: 150px;
+    margin-left: -4px;
+    padding-left: 30px;
+    border: none;
+    border-top: 1px dashed #368ee0;
+}
+#cyy-selected-list .cyy-flod-close ul{
+    display: none;
+}

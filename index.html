@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href="css/cityMultiple.css">
+    <style>
+        #demo{
+            margin: 0px auto;
+            width: 550px;
+        }
+        #result{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+   <div id="demo">
+    <div id="cityDemo"></div>
+    <p>
+        <textarea name="" id="result" cols="40" rows="5"></textarea>
+    </p>
+    <button>获取结果</button>
+    
+    </div>
+    <script src="http://cdn.staticfile.org/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.cityMultiple.js"></script>
+    <script>
+        var demo = $("#cityDemo").cityMultiple();
+        demo.set(["上海市 宝山区", "上海市 奉贤区", "河南省 焦作市", "河南省 开封市"]);
+        $("button").click(function () {
+            $("#result").val(demo.get());
+        });
+    </script>
+</body>
+
+</html>
