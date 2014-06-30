@@ -1,11 +1,19 @@
 #cyy-cityMultiple {
+    z-index: 1;
     font-size: 12px;
-    height: 200px;
+    height: 215px;
     width: 550px;
+    position: relative;
     border: 1px solid #368ee0;
+    margin-bottom: 20px;
 }
+#cyy-cityMultiple input{
+    vertical-align: inherit;
+}
+
 #cyy-cityMultiple label {
     vertical-align: text-bottom;
+    display: inline;
 }
 #cyy-cityMultiple .cyy-title {
     padding: 5px 10px;
@@ -21,7 +29,7 @@
     border-right: 1px solid #368ee0;
 }
 #cyy-cityMultiple #cyy-cities-list {
-    height: 171px;
+    height: 180px;
     overflow-y: scroll;
     overflow-x: hidden;
 }

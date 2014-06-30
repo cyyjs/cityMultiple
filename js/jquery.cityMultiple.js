@@ -34,7 +34,7 @@
         });
         html.find(".cyy-items .city-s").change(function() {
             var parentCity = $(this).parents(".city-item").children('input');
-            var checkedNum = $(this).parents(".city-item").find('input:checked');
+            var checkedNum = $(this).parents(".city-item").find('.city-s:checked');
             if (checkedNum.length > 0) {
                 parentCity.prop("checked", true);
             } else {
@@ -76,7 +76,7 @@
             }
             if (elNum === 0) {
                 checked1.prop('checked', false);
-                parentLi.parents("li").remove();
+                parentLi.parents(".cyy-flod").remove();
             }
             parentLi.remove();
         });
