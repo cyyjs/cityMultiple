@@ -31,7 +31,29 @@
           <h1>
 <a name="citymultiple" class="anchor" href="#citymultiple"><span class="octicon octicon-link"></span></a>cityMultiple</h1>
 
-<p>省市多选插件</p>
+<p>省市多选jQuery插件
+<img src="http://ww3.sinaimg.cn/mw690/73fb4b1djw1ehwgzufhluj20fg06ot9t.jpg" alt=""></p>
+
+<h3>
+<a name="%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95" class="anchor" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="octicon octicon-link"></span></a>使用方法</h3>
+
+<blockquote>
+<ol>
+<li>引入jquery、css和js文件</li>
+<li>在页面上添加一个div标签
+<code>&lt;div id="demo"&gt;&lt;/div&gt;</code>
+</li>
+<li>编写js代码
+<code>var demo = $("#cityDemo").cityMultiple();</code>
+至此便可以看到生成的画面</li>
+<li>获取选中的城市集合
+<code>demo.get()</code>
+这将返回一个已选中的城市集合数组</li>
+<li>设置初始选中城市列表
+<code>demo.set(["上海市 宝山区", "上海市 奉贤区", "河南省 焦作市", "河南省 开封市"]);</code>
+</li>
+</ol>
+</blockquote>
         </section>
 
         <aside id="sidebar">
