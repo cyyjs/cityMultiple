@@ -23,7 +23,8 @@
         html = $(html);
         self.html(html);
 
-        html.find(".city-item .city-checkbox").click(function() {
+        html.find(".city-item .city-checkbox").click(function(event) {
+            event.stopPropagation();
             var cityItem = $(this).parent().find('ul input');
             if ($(this).prop("checked")) {
                 cityItem.prop("checked", true);
@@ -32,6 +33,7 @@
             }
             setSelectCity(getSelectedCity());
         });
+        html.find(".cyy-items .city-s").click(function(event){event.stopPropagation();});
         html.find(".cyy-items .city-s").change(function() {
             var parentCity = $(this).parents(".city-item").children('input');
             var checkedNum = $(this).parents(".city-item").find('.city-s:checked');
