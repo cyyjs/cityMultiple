@@ -1,7 +1,8 @@
 # cityMultiple
 
 省市多选插件,通过选取，可以同时获得多个城市的集合。
-###Documentation
+
+### Documentation
 http://cyyjs.github.io/cityMultiple/
 
 ![](http://ww3.sinaimg.cn/mw690/73fb4b1djw1ehwgzufhluj20fg06ot9t.jpg)
